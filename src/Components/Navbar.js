@@ -2,6 +2,11 @@ import React, { useState } from "react"
 import Logo from "../Assets/Logo.svg"
 import {BsCart2} from "react-icons/bs"
 import HomeIcon from "@mui/icons-material/Home"
+import InfoIcon from "@mui/icons-material/Info"
+import HomeWorkIcon from "@mui/icons-material/HomeWork"
+import CommentRoundedIcon from "@mui/icons-material/CommentRounded"
+import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded"
+import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded"
 
 const Navbar = () => {
     const[openMenu, setOpenMenu] = useState(false)
