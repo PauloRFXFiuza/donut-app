@@ -1,6 +1,13 @@
+import Logo from "../Assets/Logo.svg"
+
 const Navbar = () => {
     return(
-        <h1>NavBar</h1>
+        <nav>
+            <div>
+                <img src={Logo} alt="Donut logo" />
+            </div>
+        </nav>
+
     )
 }
 
