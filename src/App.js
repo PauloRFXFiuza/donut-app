@@ -1,6 +1,6 @@
 
-import './App.css';
-import Home from './Components/Home';
+import './App.css'
+import Home from './Components/Home'
 
 function App() {
   return (
@@ -10,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
