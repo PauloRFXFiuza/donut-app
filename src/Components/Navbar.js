@@ -1,5 +1,6 @@
 import React from "react"
 import Logo from "../Assets/Logo.svg"
+import {BsCart2} from "react-icons/bs"
 
 const Navbar = () => {
     return(
@@ -13,6 +14,9 @@ const Navbar = () => {
                 <a href="">Our Work</a>
                 <a href="">Reviews</a>
                 <a href="">Contact</a>
+                <a href="">
+                    <BsCart2 className="navbar-cart-icon"/>
+                </a>
             </div>
         </nav>
 
