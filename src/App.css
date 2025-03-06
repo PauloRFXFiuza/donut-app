@@ -66,3 +66,17 @@ nav{
     background-color: #5dcefb;
 }
 
+@media (max-width: 800px){
+    .nav-logo-container{
+        max-width: 100px;
+    }
+
+    .navbar-links-container{
+        display: none;
+    }
+
+    .nav-bar-menu-container{
+        display: flex;
+    }
+}
+
