@@ -1,5 +1,6 @@
 import NavBar from './Navbar'
 import BannerBackground from '../Assets/home-banner-background.png'
+import BannerImage from '../Assets/home-banner-image.png'
 import {FiArrowRight} from "react-icons/fi"
 
 const Home = () => {
@@ -9,7 +10,7 @@ const Home = () => {
 
             <div className="home-banner-container">
                 <div className="home-bannerImage-container">
-                    <img src= {BannerBackground} alt= "Home Container's Background"/>
+                    <img src= {BannerBackground} alt= "Home Container's Background Illustration"/>
                 </div>
 
                 <div className="home-text-section">
@@ -22,8 +23,25 @@ const Home = () => {
                         Order now and receive a surprise gift.
                     </h1>
 
-                    <button className="secondary-button">Place your order<FiArrowRight/></button>
+                    <button className="secondary-button">
+                        Place your order<FiArrowRight/>
+                    </button>
+
+                    <p className="primary-text">
+                    Or come dine with us in a cozy, 
+                    air-conditioned environment with various options 
+                    for your order.
+                    </p>
+
                 </div>
+
+                <div className= "home-image-section">
+                    <div className= "home-primary-image">
+                        <img src={BannerImage} alt="donut illustration" /> 
+                    </div>
+
+                </div>
+
             </div>
         </div>
     )

@@ -56,7 +56,6 @@ nav{
 .nav-bar-menu-container svg {
     font-size: 1.5rem;
     cursor: pointer;
-    color:rgb(247,182,193);
 }
 
 .primary-button{
@@ -88,6 +87,54 @@ nav{
     right: -150px;
     z-index: -2;
     max-width: 100%;
+}
+
+.home-image-section{
+    flex: 1;
+    display: flex;
+}
+
+.home-primary-image img {
+    width: 750px;
+    height: 640px;
+    object-fit: cover;
+    margin-left: 170px;
+}
+
+.home-text-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.primary-heading {
+    font-size: clamp(2rem, 5vw, 4rem);
+    color: rgb(235, 175, 185);
+    max-width: 600px;
+}
+
+.primary-text {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    color: rgb(214, 159, 168);
+    margin: 1.5rem 0rem;
+}
+
+.secondary-button {
+    padding: 1rem 2.5rem;
+    background-color: #53c9f8;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 800px){
