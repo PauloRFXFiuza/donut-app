@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Reem Kufi", sans-serif !important;
+    background-color: rgb(29, 26, 26);
 }
 
 img{
@@ -20,7 +21,7 @@ img{
 .body{
     max-width: 100%;
     overflow-x: hidden;
-    background-color: #FFF;
+    
 }
 
 nav{
@@ -41,12 +42,13 @@ nav{
 .navbar-links-container a {
     margin-right: 3rem;
     text-decoration: none;
-    color:black;
+    color:rgb(247,182,193);
     font-size: 1.1rem;
     font-weight: 600;
 }
 
 .nav-bar-menu-container{
+    color:rgb(247,182,193);
     display: none;
 }
 
@@ -77,6 +79,7 @@ nav{
 
     .nav-bar-menu-container{
         display: flex;
+        
     }
 }
 
