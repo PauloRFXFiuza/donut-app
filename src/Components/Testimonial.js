@@ -16,8 +16,8 @@ const Testimonial = () => {
                 </p>
             </div>
 
-            <div>
-                <img src={ProfilePic} alt="Customer illustration"/>
+            <div className= "testimonials-section-bottom">
+                <img className= "testimonials-picture" src={ProfilePic} alt="Customer illustration"/>
                 <p>
                     "Discovering this donut shop was one of the best things that happened! 
                     The donuts are always fresh, soft, and incredibly tasty. The customer service is excellent, 
@@ -33,6 +33,7 @@ const Testimonial = () => {
                 <AiFillStar />
                 <AiFillStar />
             </div>
+            <h2>John Doony</h2>
     </div>
     )
 }

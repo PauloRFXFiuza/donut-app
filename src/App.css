@@ -218,6 +218,10 @@ nav{
 
 .work-section-wrapper {
     margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .work-section-top {
@@ -268,6 +272,45 @@ nav{
     font-size: 100px;
     background-color: transparent;
 }
+
+.testimonials-section-bottom{
+    margin-top: 2rem;
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 750px;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.testimonials-picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials-section-bottom p {
+    font-weight: 700;
+    max-width: 500px;
+    font-size: 1.1rem;
+    margin: 2rem 0;
+}
+
+.testimonials-stars-bottom svg {
+    margin: 0 0.25rem;
+    font-size: 1.5rem;
+    color: #eadf0a;
+}
+
+.testimonials-section-bottom h2 {
+    margin-top: 1.5rem;
+
+}
+
+
 
 @media (max-width: 1000px) {
     .navbar-links-container a {
