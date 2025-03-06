@@ -24,7 +24,7 @@ const Home = () => {
                     </h1>
 
                     <button className="secondary-button">
-                        Place your order<FiArrowRight/>
+                        Place your order <FiArrowRight/>
                     </button>
 
                     <p className="primary-text">

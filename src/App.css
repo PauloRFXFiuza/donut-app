@@ -141,7 +141,28 @@ nav{
     background-color: rgb(247, 163, 177);
 }
 
+.FiArrowRight {
+    background-color: none;
+    color: black;
+}
+
+@media (max-width: 1000px) {
+    .navbar-links-container a {
+      margin-right: 1rem;
+      font-size: 1rem;
+    }
+  
+    .primary-button {
+      font-size: 1rem;
+    }
+  
+    .home-bannerImage-container {
+      max-width: 600px;
+    }
+  }
+
 @media (max-width: 800px){
+    /*Navbar component*/
     .nav-logo-container{
         max-width: 100px;
     }
@@ -154,5 +175,25 @@ nav{
         display: flex;
         
     }
+
+    /*Home Component*/
+    .home-bannerImage-container{
+        max-width: 450px;
+    }
+
+    .home-primary-image img {
+        width: 376px;
+        height: 314px;
+        object-fit: cover;
+        margin-left: 5px;
+    }
+
+    .home-banner-container,
+    .about-section-container{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
 
