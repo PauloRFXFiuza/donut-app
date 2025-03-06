@@ -10,32 +10,32 @@ const Footer = () => {
             <div className="footer-section-one">
                 <div className="footer-logo-container">
                     <img src={Logo} alt="Donut Logo"/>
-                </div>
-                <div className="footer-icons">
+            </div>
+            <div className="footer-icons">
                     <BsTwitter />
                     <SiLinkedin />
                     <BsYoutube />
                     <FaFacebookF />
-                </div>
-                <div className="footer-section-two">
+            </div>
+            <div className="footer-section-two">
                     <div className="footer-section-columns">
                         <span>Quality</span>
                         <span>Help</span>
                         <span>Our Brand</span>
                         <span>Reviews</span>
                         <span>Our Work</span>
-                    </div>
-                    <div className="footer-section-columns">
+            </div>
+            <div className="footer-section-columns">
                         <span>11-332233-1234</span>
-                        <span>hello.donut@ghdmail.com</span>
-                        <span>media.donut@ghdmail.com</span>
-                        <span>contact.donut@ghdmail.com</span>
-                    </div>
-                    <div className="footer-section-columns">
+                        <span>hello.donut@mail.com</span>
+                        <span>media.donut@mail.com</span>
+                        <span>contact.donut@mail.com</span>
+            </div>
+            <div className="footer-section-columns">
                         <span>Conditions and Terms</span>
                         <span>Privacy and Politics</span>
-                    </div>
-                </div>
+            </div>
+            </div>
                 
 
             </div>
