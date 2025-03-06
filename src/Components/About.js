@@ -17,7 +17,7 @@ const About = () => {
             <div className="about-section-text-container">
                 <p className="primary-subheading">About Us</p>
                 <h1 className="primary-heading">
-                    It’s Important to Know Who Feeds You
+                    It's Important to Know Who Feeds You
                 </h1>
                 <p className="primary-text">
                     We are a local bakery dedicated to bringing you the most delicious donuts in town.
