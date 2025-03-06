@@ -137,6 +137,10 @@ nav{
     justify-content: center;
 }
 
+.secondary-button:hover{
+    background-color: rgb(247, 163, 177);
+}
+
 @media (max-width: 800px){
     .nav-logo-container{
         max-width: 100px;
