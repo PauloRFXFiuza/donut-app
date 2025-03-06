@@ -153,6 +153,12 @@ nav{
     justify-content: space-between;
 }
 
+.about-buttons-container{
+    margin-left: 0rem !important;
+    margin-top: 1rem;
+    font-size: 1rem !important;
+}
+
 .about-background-image-container {
     position: absolute;
     z-index: -2;
@@ -166,8 +172,8 @@ nav{
 }
 
 .about-section-image-container img {
-    width: 270px;
-    height: 85px;
+    margin-left: 270px;
+    margin-bottom: 85px;
 }
 
 .about-section-text-container {
