@@ -482,6 +482,13 @@ nav{
         border-radius: 1rem !important;
     }
 
+    .contact-form-container input {
+        font-size: 1rem !important;
+        max-width: 100%;
+        padding: 0.5rem 1rem !important;
+        margin-bottom: 0.8rem !important;
+    }
+
 }
 
 @media (max-width: 600px) {
