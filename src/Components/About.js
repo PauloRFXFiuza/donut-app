@@ -1,6 +1,12 @@
+import AboutBackground from "../Assets/about-background1.jpg"
+
 const About = () => {
     return (
-    <h1>About</h1>
+        <div className= "about-section-container">
+            <div className= "about-background-image-container">
+                <img src={AboutBackground} alt="Stack Donuts Illustration"/>
+            </div>
+        </div>
     );
 }
 
