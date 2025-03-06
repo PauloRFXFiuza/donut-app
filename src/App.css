@@ -247,12 +247,24 @@ nav{
     margin: 1rem 0;
 }
 
+.work-section-info p {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
 .work-section-bottom {
     margin-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.info-boxes-img-container{
+    font-size: 100px;
+    background-color: transparent;
 }
 
 @media (max-width: 1000px) {
