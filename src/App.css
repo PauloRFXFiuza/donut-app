@@ -381,6 +381,14 @@ nav{
         cursor: pointer;
     }
 
+    .work-section-wrapper {
+        margin-top: 3rem !important;
+    }
+
+    .work-section-bottom {
+        margin-top: 1rem !important;
+    }
+
 }
 
 @media (max-width: 600px) {
