@@ -178,6 +178,39 @@ nav{
     margin-left: 200px;
 }
 
+.primary-subheading {
+   font-weight: 700;
+   color: rgb(253,127,148);
+   font-size: 3rem; 
+}
+
+.about-buttons-container {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.watch-video-button {
+    margin-left: 2rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(253,127,148);
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watch-video-button svg {
+    font-size: 3rem;
+    margin-right: 1rem;
+}
+
+
 @media (max-width: 1000px) {
     .navbar-links-container a {
       margin-right: 1rem;
